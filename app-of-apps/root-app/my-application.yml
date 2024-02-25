@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/aljazvidmar/gitops-testing.git
     targetRevision: HEAD
-    path: ./app-of-apps/my-app-list
+    path: ./app-of-apps/my-new-applist
    
     # directory
     directory:
