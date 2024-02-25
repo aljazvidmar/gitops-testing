@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/aljazvidmar/gitops-testing.git
     targetRevision: HEAD
-    path: ./image-updater/applications
+    path: ./image-updater/controller
    
     # directory
     directory:
@@ -23,7 +23,7 @@ spec:
   # Destination cluster and namespace to deploy the application
   destination:
     server: https://kubernetes.default.svc
-    namespace: default
+    namespace: argocd
 
   # Sync policy
   syncPolicy:
