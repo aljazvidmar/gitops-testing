@@ -23,7 +23,7 @@ spec:
   # Destination cluster and namespace to deploy the application
   destination:
     server: https://kubernetes.default.svc
-    namespace: example06
+    namespace: example067
 
   # Sync policy
  # syncPolicy:
