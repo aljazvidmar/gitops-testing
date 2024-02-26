@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/aljazvidmar/gitops-testing.git
     targetRevision: HEAD
-    path: ./sync-hooks-waves/03-post-synccleanup
+    path: ./sync-hooks-waves/03-postsync-cleanup
 
     # directory
     directory:
